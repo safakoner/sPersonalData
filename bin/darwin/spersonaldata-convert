@@ -1,0 +1,2 @@
+# DESCRIPTION Convert personal data format to another format
+python -c "import sPersonalData.personalDataCmd;reload(sPersonalData.personalDataCmd);sPersonalData.personalDataCmd.convert()" $@

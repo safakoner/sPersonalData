@@ -1,0 +1,2 @@
+# DESCRIPTION Filter personal data
+python -c "import sPersonalData.personalDataCmd;reload(sPersonalData.personalDataCmd);sPersonalData.personalDataCmd.filter()" $@
