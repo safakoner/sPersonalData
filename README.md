@@ -3,7 +3,24 @@
 I was asked to deliver a technical task for a job offering. I was offered a job upon providing this package, along with
 API reference (Doxygen) and additional documentation like the one below. 
 
-## Requirements for the Task
+# Table of Contents
+
+- [Requirements for the Task](#requirements-for-the-task)
+- [Overview](#overview)
+- [API Reference](#api-reference)
+- [Setup](#setup)
+- [Creating and Adding Personal Data](#creating-and-adding-personal-data)
+- [Displaying Personal Data](#displaying-personal-data)
+- [Converting Personal Data](#converting-personal-data)
+- [Filtering Personal Data](#filtering-personal-data)
+- [Adding a New Format](#adding-a-new-format)
+- [Command Line Interface](#command-line-interface)
+  * [spersonaldata-add](#spersonaldata-add)
+  * [spersonaldata-convert](#spersonaldata-convert)
+  * [spersonaldata-display](#spersonaldata-display)
+  * [spersonaldata-filter](#spersonaldata-filter)
+  
+# Requirements for the Task
 
 The brief for this challenge is as follows:
 
@@ -50,12 +67,12 @@ API reference (Doxygen) of the package is available in `sPersonalData/doc/develo
 
 Add the following path to Python path.
 
-`sPersonalData/python`
+- `sPersonalData/python`
 
 Add the one of the following path to bin path.
 
-`sPersonalData/bin/darwin`
-`sPersonalData/bin/linux`
+- `sPersonalData/bin/darwin`
+- `sPersonalData/bin/linux`
 
 Import the modules.
 
